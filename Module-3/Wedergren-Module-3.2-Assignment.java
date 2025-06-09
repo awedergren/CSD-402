@@ -11,7 +11,7 @@ public class TrianglePattern {
         // Outer loop for each row
         for (int i = 0; i < n; i++) {
             
-            // Inner loop for spaces
+            // Inner loop for beginning spaces
             for (int j = 0; j < n - i - 1; j++) {
                 System.out.print("   ");
             }
@@ -30,7 +30,7 @@ public class TrianglePattern {
             for (int j = 0; j <= 3 * n - i * 3; j++) {
                 System.out.print(" ");
             }
-
+	    // Print the symbol at the end of each row
 	    System.out.println("@");
 
             // Move to the next line after completing each row
