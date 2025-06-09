@@ -2,6 +2,8 @@
 // June 4, 2025
 // Module 2.2 Assigment
 
+// Write a program that is like the popular game titled “Rock-Paper-Scissors.” The program should randomly generate the number of 1, 2, or 3 with 1 being Rock, 2 being Paper, and 3 being Scissors. This will be the computer’s selection in the game. Then, the program should prompt the user to enter a value of 1, 2, or 3. This will be the user’s selection in the game. Next, the program should display a clear readable message displaying both the computer’s selection, the user’s selection, and the results of the game played. 
+
 import java.util.Scanner;
 import java.util.Random;
 
