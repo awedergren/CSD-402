@@ -99,3 +99,6 @@ public class ArrayLocator {
         System.out.println("Smallest in int array: Row " + smallestInt[0] + ", Column " + smallestInt[1]);
     }
 }
+
+
+
